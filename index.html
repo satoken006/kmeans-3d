@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='UTF-8'>
+	<title>K-Means 3D</title>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/p5.js/0.4.5/p5.js"></script>
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<h2>K-means 3D</h2>
+	<div class="widget">
+		<button id="stepButton">ステップ</button>
+		<div>
+		<p>ノード数</p>
+		<input type="number" id="nodeNum" class="spinner" value="150" min="10" max="1000">
+		</div>
+		<div>
+		<p>重心数</p>
+		<input type="number" id="gravityNum" class="spinner" value="8" min="2" max="50">
+		</div>
+		<button id="updateButton">変更</button>
+	</div>
+	<script src="js/KMeans3D.js"></script>
+	<script src="js/GravityPoint.js"></script>
+	<script src="js/KNode.js"></script>
+	<script src="js/Function.js"></script>
+</body>
+</html>

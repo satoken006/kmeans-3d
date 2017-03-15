@@ -27,6 +27,9 @@ function draw(){
 	rotateX(frameCount * PI/2700);
 	rotateY(frameCount * PI/5400);
 	rotateZ(frameCount * PI/8100);
+	//rotate(frameCount * PI/2700, [1, 0, 0]);
+	//rotate(frameCount * PI/5400, [0, 1, 0]);
+	//rotate(frameCount * PI/8100, [0, 0, 1]);
 
 	push();
 	translate(box_x, 0, 0);
